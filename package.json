@@ -1,23 +1,18 @@
 {
-  "name": "goit-js-hw-08",
+  "name": "parcel-template",
+  "description": "Parcel JS Starter Kit",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "simplelightbox": "^2.8.1"
+  "main": "src/index.js",
+  "author": "Rob Kendal <38687284+bpk68@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.14.3",
+    "@babel/preset-env": "7.14.4",
+    "parcel-bundler": "1.12.5",
+    "sass": "1.34.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BartekSwiderski/goit-js-hw-08.git"
-  },
-  "author": "Bartek <bartek@op.pl>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BartekSwiderski/goit-js-hw-08/issues"
-  },
-  "homepage": "https://github.com/BartekSwiderski/goit-js-hw-08#readme"
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  }
 }
