@@ -1,0 +1,23 @@
+{
+  "name": "goit-js-hw-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "simplelightbox": "^2.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BartekSwiderski/goit-js-hw-08.git"
+  },
+  "author": "Bartek <bartek@op.pl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BartekSwiderski/goit-js-hw-08/issues"
+  },
+  "homepage": "https://github.com/BartekSwiderski/goit-js-hw-08#readme"
+}
